@@ -1,0 +1,79 @@
+#Das ist Tommy, ein Chatbot
+
+import time
+
+Bastian = 'Bastian'
+Julian = 'Julian'
+Arnold = 'Arnold'
+Clemens = 'Clemens'
+Malis = 'Malis'
+Antonia = 'Antonia'
+Florian ='Florian'
+Katia = 'Katia'
+Maxim = 'Maxim'
+Jon = 'Jon'
+Henrik = 'Henrik'
+Henne = 'Henrik'
+print('Hi. Wie heißt du? (Bitte nur den Vornamen eintragen.)')
+
+Name = input()
+
+Namen = ["Bastian","Julian","Clemens","Antonia","Florian","Katia","Maxim","Jon","Henrik","Henne"]
+
+if Name == Bastian:
+        print('Hi Bastian, weist du noch wer ich bin? Ich bin TOMMY, dein personlich entwickelter Chatbot. Ich weis aber noch nichts uber dich.')
+
+elif Name == Julian:
+        print('Hi Julian. Ich bin TOMMY, ein Chatbot.')
+        print('Ich weis leider nur, das du der Bruder von Bastian bist. Ich muss ein bisschen mehr uber dich lernen.')
+
+elif Name == Clemens:
+            print('Hey Clemens, ich bin TOMMY, ein Chatbot. Ich weis leider nur, das du der Vater von meinem Erfinder Bastian bist.')
+            print('Erzahl mir doch ein bisschen von dir.')
+
+elif Name ==  Henrik:
+    print('Hi Henne, ich bin TOMMY, ein Chatbot, der von Bastian entwickelt wurde.')
+    print('Ich weis nur von dir, das du der beste Freund von Bastian bist. Erzahl mir doch ein bisschen was von dir.')
+
+elif Name ==  Henne:
+    print('Hi Henne, ich bin TOMMY, ein Chatbot, der von Bastian entwickelt wurde.')
+    print('Ich weis nur von dir, das du der beste Freund von Bastian bist und das du Eier legen kannst.')
+    print('Erzahl mir doch ein bisschen was von dir.')
+
+elif Name != "Namen [0,1,2,3,4,5,6,7]":
+    print('Hi ' + Name + ', willkommen zu Tommy. Ich bin übrigens ein Chatbot.')
+
+time.sleep(2)
+print('Als erstes muss ich wissen wie alt du bist.')
+
+Alter = int(input())
+
+if Alter <= 13:
+    print('Du bist schon ' + str(Alter) + ' Jahre alt? Cool :) ')
+elif Alter == 14:
+    print('Da hast du ja schon richtig viel Verantwortung.')
+elif Alter >= 15:
+    print('Du bist ja schon ein Teennager.')
+
+print('Jetzt wäre es in unserer Freundschaft doch angemessen, wenn du mir sagst, welche Hobbys du hast.')
+Hobbys=input()
+print('Jetzt muss ich dir aber auch etwas uber mich erzahlen.')
+time.sleep(1)
+print('Ich heiße Tommy und mein Entwickler heißt Bastian Scherzinger. Meine Hobbys sind: Ein Chatbot sein und mich weiter entwickeln. ')
+time.sleep(3)
+print('Wie findest du mich?')
+Bewertung=input()
+
+print('Ich weiß schon etwas über dich.')
+time.sleep(2)
+print('Du heißt ' + str(Name))
+time.sleep(2)
+print('Du bist ' + str(Alter) + ' Jahre alt.')
+time.sleep(2)
+print('Deine Hobbys sind: ' + str(Hobbys))
+time.sleep(2)
+print('Ich wunsche dir noch einen schonen Tag')
+time.sleep(2)
+print('Press Enter to exit.')
+input()
+print(' BYE  :)')
